@@ -18,6 +18,9 @@ html body{
   font-family:  'Montserrat Alternates', sans-serif;
   border: 1px grey solid;
 }
+.box{
+   margin-top: 50px;
+ }
 /*
 .container{
   text-align: center;
