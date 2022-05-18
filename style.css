@@ -50,7 +50,7 @@ border-style: inset;
 }
 footer{
   padding-top: 100px; 
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 input{
    background: linear-gradient(180deg, rgba(255, 255, 255) 50%, rgba(255, 254, 254) 50%);
